@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1c38;
+}
+
+.Navbar {
+  background-color: #111121;
+  color: #de6089;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-feedback-form {
+  background-color: #1d1c38;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section-feedback-form .form-container {
+  background-color: white;
+  width: 700px;
+  padding: 40px 20px;
+}
+
+.section-feedback-form .form-container h1.title {
+  text-align: center;
+}
+
+.section-feedback-form .form-container .point-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.section-feedback-form .form-container .point-container .point {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  background-color: #f3f1f3;
+  color: rgb(37, 37, 37);
+  border-radius: 50%;
+}
+
+.section-feedback-form .form-container .main-form {
+  display: flex;
+  justify-content: center;
+}
+
+.section-feedback-form .form-container .main-form .input-wrapper {
+  width: 600px;
+  position: relative;
+}
+
+.section-feedback-form .form-container .main-form .input-wrapper input {
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.section-feedback-form .form-container .main-form .input-wrapper button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 6px 20px;
+  border-radius: 6px;
+  background-color: #111121;
+  color: white;
+  border-color: #111121;
+}
+
+.section-total-review {
+  background-color: #1d1c38;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.section-total-review .total-review-container {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.section-feedback-item {
+  background-color: #1d1c38;
+  display: flex;
+  justify-content: center;
+}
+
+.section-feedback-item .feedback-container {
+  width: 700px;
+}
+
+.section-feedback-item .feedback-container .feedback-item-container {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  position: relative;
+  padding: 30px 20px;
+}
+
+.section-feedback-item .feedback-container .feedback-item-container .point {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  background-color: #de6089;
+  color: white;
+  border-radius: 50%;
+}
+
+.section-feedback-item
+  .feedback-container
+  .feedback-item-container
+  .action-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.active {
+  background-color: #de6089 !important;
+  color: white !important;
+}
